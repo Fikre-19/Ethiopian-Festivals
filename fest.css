@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(c.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 38px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(251, 251, 250);
+    transition: 0.4s ease-in-out;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: rgb(9, 9, 9);
+    font-size: 100px;
+    line-height: 19px;
+    padding-top: 2px;
+    padding-bottom: 30px;
+}
+p{
+    color: rgb(248, 247, 243);
+    font-size: 30px;
+    padding-top: 12px;
+    padding-bottom: 390px;
+}
+.card{
+    width: 240px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: tranform 0.5s;
+    background-position: center;
+    background-size: cover;
+    border: 3px dashed yellow;
+    text-decoration: none;
+}
+.card1{
+    background-image: url(gena.png);
+}
+.card2{
+    background-image: url(buhe.png);
+}
+.card3{
+    background-image: url(meskel.png);
+}
+.card4{
+    background-image: url(timket.png);
+}
+.card:hover{
+transform: translateY(-10px);
+}
+h5{
+    font-size: 30px;
+    color: rgb(19, 19, 21);
+}
+.card1 h5{
+    font-size: 50px;
+    color: rgb(16, 19, 16);
+}
+.card2 h5{
+    font-size: 50px;
+    color: rgb(226, 186, 116);
+}
+.card3 h5{
+    font-size: 50px;
+    color: rgb(18, 54, 122);
+}
+.card4 h5{
+    font-size: 50px;
+    color: rgb(241, 246, 241);
+}
